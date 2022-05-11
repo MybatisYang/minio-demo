@@ -1,0 +1,12 @@
+# MinIo文件服务器
+minio:
+  # bucket名称
+  bucket: "test"
+  # Minio服务地址
+  endpoint: "http://localhost:9000"
+  # 访问路径
+  url: "${minio.host}/${minio.bucket}/"
+  # MINIO_ACCESS_KEY
+  accessKey: "minioadmin"
+  # MINIO_SECRET_KEY
+  secretKey: "minioadmin"
